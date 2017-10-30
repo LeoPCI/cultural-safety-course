@@ -431,16 +431,25 @@ table.dataTable thead .sorting:after {
     border-right-width: 14px;
     border-left-width: 0;
   }
+  .video {
+    display: inherit!important;
+    /*margin-left: 40px;*/
+  }
+  .questions {
+    padding-left: 0!important;
+  }
+  iframe, .questions, .questions p, .form-control, .form-group {
+    width: 300px!important;
+  }
 }
 
 
 /*CUSTOM*/
 .video {
   padding: 20px;
-  /*border: 3px solid black;*/
   border-radius: 3px;
-    display: -webkit-flex;
-    display: flex;
+  display: -webkit-flex;
+  display: flex;
 }
 
 h2.vid-title {
